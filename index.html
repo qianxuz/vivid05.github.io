@@ -1,1 +1,258 @@
-test
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Qianxu's Portfolio </title>
+		<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="./css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+		<link href="./css/theme-style.css" rel='stylesheet' type='text/css' />
+		<script src="./js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="./css/theme-style.css" rel='stylesheet' type='text/css' />
+   		 <script src="./js/jquery.easing.min.js"></script>
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="./images/h-icon.png" />
+		<script type="application/x-javascript"> 
+			<!-- 手机打开页面后收起地址栏 -->
+			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); 
+			function hideURLbar(){ window.scrollTo(0,1); } 
+		</script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700,800,900,600,200' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!----requred-js-files---->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		    <script src="./js/html5shiv.js"></script>
+		    <script src="./js/respond.min.js"></script>
+		<![endif]-->
+		<!----//requred-js-files---->
+		<script type="text/javascript" 	src="./js/jquery.smint.js"></script>
+		<script type="text/javascript">
+			$(document).ready( function() {
+			    $('.subMenu').smint({
+			    	'scrollSpeed' : 1000 //返回顶部速度
+			    });
+			});
+		</script>
+	</head>
+	
+	<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+	    <nav class="subMenu navbar-custom navbar-scroll-top" role="navigation">
+	        <div class="container">
+	            <div class="navbar-header page-scroll">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+	                    <img src="./images/nav-icon.png" title="drop-down-menu" /> 
+	                </button>
+	            </div>
+				<div class="collapse navbar-collapse navbar-left navbar-main-collapse">
+					<ul class="nav navbar-nav">          
+						<li class="active">
+							<a id="sTop" class="subNavBtn" href="#">Home</a>
+						</li>
+						<li class="page-scroll">
+							<a id="s2" class="subNavBtn" href="index.html#port">Portfolio</a>
+						</li>
+						<li class="page-scroll">
+							<a id="s3" class="subNavBtn" href="index.html#contact">Contact</a>
+						</li>
+						<!--<li class="page-scroll">
+							<a id="s3" class="subNavBtn" href="#">Testimonials</a>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="head-bg">
+			<div class="container">
+				<div class="col-lg-12 header-note">
+					<a href="#"><img src="./images/head.gif" title="Flat style" /></a>
+					<h1>Hi, I am Qianxu! </h1>
+					<p>I am senior student of Fudan University. I major in computer science.</p>
+					<p>I love my life. Painting and design have been the mainspring of my life.</p>
+					<p>I want to be a UX designer who can really improve people's life. I think I am a lucky person:)</p>
+					<!--<a class="btn btn-primary big-btn" href="#">Learn More </a>-->
+				</div>
+			</div>
+		</div>
+		<div class="about">
+			<div class="container">
+				<div class="col-md-6 divice">
+					<img class="img-responsive" src="./images/p1.jpg" title="divice" />
+				</div>
+				<div class="col-md-6 divice-info" id = "port">
+					<h3>Portfolio</h3>
+					<!--<p>Not professional yet.</p>-->
+					<a class="btn btn-primary btn-red" href="index.html#web">Web Design <span> </span></a>
+					<a class="btn btn-primary btn-red" href="index.html#cg">CG<span> </span></a>
+							<p></p>
+					<a class="btn btn-primary btn-red" href="index.html#photo">Photography <span> </span></a>
+					<a class="btn btn-primary btn-red" href="index.html#paint">Painting<span> </span></a>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio section s2">
+			<div class="container portfolio-head" id = "web">
+				<h3> Web Design</h3>
+				<p></p>
+			</div>
+		<div  class="testmonials section s3">
+			<div class="container">
+				<div class="bs-example">
+					<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+					<!-- Carousel indicators -->
+						<ol class="carousel-indicators pagenate-icons">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>   
+						   <!-- Carousel items -->
+					    <div class="carousel-inner">
+							<div class="active item">
+								<h2><img src="./images/signin.jpg" title="name" /></h2>
+								<div class="carousel-caption caption">
+									<p>A login interface I designed when I worked as an intern in Alcatel-Lucent. </p>
+								</div>
+							</div>
+							<div class="item">
+								<h2><img src="./images/hackitday2.jpg" title="name" /></h2>
+								<div class="carousel-caption caption">
+									<p> An index I desiged for the "Hack IT Day" activity. </p>
+								</div>
+							</div>
+							<div class="item">
+								<h2><img src="./images/banner.jpg" title="name" /></h2>
+								<div class="carousel-caption caption">
+									<p>Some banners I designed when I worked as an intern in Alcatel-Lucent.</p>
+								</div>
+							</div>
+						</div>
+							<!-- Carousel nav -->
+					</div>
+				</div>
+		    </div>
+		</div>		
+		
+		<script src="./js/bootstrap.min.js"></script>
+		
+			<div class="container portfolio-head" id = "photo">
+				<h3> Photography</h3>
+				<p>Beginner. All of these photos were taken by my iphone and processed by photoshop and VSCOcam.
+				Photography is very interesting. It helps me to learn this world in a different way.
+				<a href = "photo.html"  target="_blank" > Read more</a> 
+				</p>
+			</div>
+			<div id="portfoliolist">
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">		
+				<img src="./images/g2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">						
+				<img src="./images/g1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">					
+				<img src="./images/g3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">					
+				<img src="./images/g4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			</div>
+			
+			<div class="container portfolio-head" id = "cg">
+				<h3>CG</h3>
+				<p>Some icons or pictures I made by using photoshop or SAI.
+				<a href = "cg.html"  target="_blank" > Read more</a></p>
+			</div>
+			<div id="portfoliolist" >
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">		
+				<img src="./images/g5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">		
+				<img src="./images/g6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">						
+				<img src="./images/g7.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">		
+				<img src="./images/g8.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			</div>
+			
+			<div class="container portfolio-head" id = "paint">
+				<h3>Painting</h3>
+				<p>I have a keen interest in painting since I was a child. I cannot really tell you the difference between painting and having fun. 
+				I design postcards in my spare time and run an 
+				<a href = "http://jibenpiancha.taobao.com"  target="_blank" > online shop</a> 
+				with my friends to sell them.
+				<a href = "painting.html"  target="_blank" > Read more</a></p>
+			</div>
+			<div id="portfoliolist">
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">			
+				<img src="./images/g9.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">						
+				<img src="./images/g10.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">		
+				<img src="./images/g11.jpg" />
+				<div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			<div class="portfolio-wrapper portfolio app mix_all" style="display: inline-block; opacity: 1;">		
+				<img src="./images/g12.jpg" />
+				<div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "></h2>
+				</div>
+		    </div>
+			</div>
+		</div>
+		
+		<div class="contact section s4" >
+			<div class="container" >
+				<h4>Contact</h4>
+				<p class="contact-head">What do you want to say to me? </p>
+				<div class="row contact-form" id = "contact">
+					<form>
+						<div class="col-md-6 text-box">
+							<input type="text" placeholder="Name" />
+							<input type="text" placeholder="Email" />
+							<input type="text" placeholder="Subject" />
+						</div>
+						<div class="col-md-6 textarea">
+							<textarea>Message</textarea>
+						</div>
+						<div class="clearfix"> </div><br />
+						<input class="btn btn-primary btn-red-lg" type="submit" value="Submit Message" />
+					</form>
+				</div>
+				<!----start-social-icons--->
+				<div class="social-icons">
+					<ul>
+						<li><a class="facebook" href="https://www.facebook.com/qianxu.zeng.3" target="_blank"> <span> </span></a></li>
+						<li><a class="twitter" href="#"> <span> </span></a></li>
+						<li><a class="dribbble" href="#"> <span> </span></a></li>
+					</ul>
+				</div>
+				<!----//End-social-icons--->
+				<!----start-copy-right---->
+				<div class="copy-right">
+					<p>&#169; 2014 <span>Qianxu Zeng</span> All Rights Reserved.</p>
+				</div>
+				<!----//End-copy-right---->
+			</div>
+		</div>
+		<!----//End-contact---->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="./js/bootstrap.min.js"></script>
+	</body>
+	
+</html>
